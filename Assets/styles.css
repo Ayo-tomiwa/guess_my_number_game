@@ -1,0 +1,143 @@
+body {
+  background-color: #000000f4;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.again {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  justify-content: space-between;
+}
+
+.between {
+  text-align: right;
+  margin-left: 35rem;
+  color: white;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+div>button {
+  padding: 20px 3rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+div>p {
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  color: #ffffff;
+}
+
+.container {
+  width: 100%;
+  margin-top: 6rem;
+}
+
+.colorWhite {
+  background-color: white;
+  padding: 0.2rem;
+  left: 0;
+  right: 0;
+}
+
+.number {
+  width: 10rem;
+  font-size: 5rem;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -4.5rem;
+}
+
+.mainGraph {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  margin: 0 auto;
+  color: #ffffff;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.left {
+  width: 30%;
+}
+
+.left>input {
+  background-color: transparent;
+  border: 4px solid#ffffff;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.guess {
+  padding: 2.4rem 0.3rem;
+}
+
+
+.left>.btn {
+  padding: 15px;
+  margin: 40px 0 0 25px;
+  width: 12rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+section>.message {
+  font-size: 2.5rem;
+  /* width: 100%; */
+  font-weight: 500;
+  margin-top: -12px;
+  margin-bottom: 4rem;
+}
+
+section>.label-score {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: -0.2rem;
+}
+
+section .label-highscore {
+  font-size: 2rem;
+  margin-top: -1rem;
+  font-weight: 500;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+  .mainGraph {
+    flex-direction: column;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .left>.btn {
+    margin: 20px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .between {
+    margin-left: 0;
+  }
+}
